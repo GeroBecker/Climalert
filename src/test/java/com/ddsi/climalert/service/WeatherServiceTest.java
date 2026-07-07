@@ -51,7 +51,7 @@ class WeatherServiceTest {
     WeatherApiResponseDTO mockResponse = null;
 
     // WHEN: Ejecutamos
-    weatherService.procesarYGuardarClima();;
+    weatherService.procesarYGuardarClima();
 
     // THEN: Verificamos que no se intentó guardar
     verify(repository, never()).save(any(RegistroClimatico.class));
