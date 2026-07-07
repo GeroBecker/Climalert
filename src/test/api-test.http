@@ -1,0 +1,7 @@
+### Para probar los endpoints del controller
+
+### Ver todos los registros (GET)
+GET http://localhost:8080/api/clima
+
+### Actualizar clima (POST)
+POST http://localhost:8080/api/clima/actualizar
